@@ -49,7 +49,8 @@ function validateForm(event) {
     }
 
     if (isValid) {
-        window.open(`lab5/results.html?name=${name}&idCard=${idCard}&faculty=${faculty}&dob=${dob}&address=${address}`);
+        //window.open(`lab5/results.html?name=${name}&idCard=${idCard}&faculty=${faculty}&dob=${dob}&address=${address}`);
+        window.open(`https://oksanaivanytska.github.io/lab5/results.html?name=${name}&idCard=${idCard}&faculty=${faculty}&dob=${dob}&address=${address}`);
     }
 }
 
